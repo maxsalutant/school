@@ -31,3 +31,13 @@ for x in '012345678':
             result_search.append(t)
 if result_search:         
     print(min(result_search) // 61)
+
+
+
+
+
+#for x in '0123456789':
+#    t = int('' + x + 'B09', 17) + int('' + x + '8E8', 15)
+#    if t % 155 == 0:
+#        print(t // 155)
+#        break
